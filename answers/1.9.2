@@ -1,0 +1,5 @@
+docker ps 
+docker stop b791baf38f3e 
+docker rm b791baf38f3e
+docker run -d -p 8080:8080 -e environment=production --name meaningful-name my-td-app
+
